@@ -16,7 +16,7 @@ button.btn-close {
 	bottom: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
 	p {
 		font-size: 2rem;
 	}
@@ -26,8 +26,8 @@ button.btn-close {
 	}
 
 	.resultsDiv {
-		width: 90% !important;
-		height: 35em !important;
+		width: 90vmin !important;
+		height: 50vmax !important;
 	}
 }
 
